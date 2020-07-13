@@ -1,21 +1,9 @@
-<div align="center">
-    <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1593524185/zfwgali2ynkoeysxw40m.svg" width="300px"/>
-</div>
 
-<br />
 
 <h2 align="center">
    💈✂️ GoBarber ✂️💈
 </h2>
 
-<p align="center">
-  <img alt="Project programing languages count" src="https://img.shields.io/github/languages/count/StefanoSaffran/gobarber?color=ff9000">
-   <img alt="Repository size" src="https://img.shields.io/github/repo-size/StefanoSaffran/gobarber?color=ff9000">
-  <img alt="Last commit on GitHub" src="https://img.shields.io/github/last-commit/StefanoSaffran/gobarber?color=ff9000">
-  <img alt="Made by Stefano" src="https://img.shields.io/badge/made%20by-StefanoSaffran-%20?color=ff9000">
-  <img alt="Project top programing language" src="https://img.shields.io/github/languages/top/StefanoSaffran/gobarber?color=ff9000">
-  <img alt="GitHub license" src="https://img.shields.io/github/license/StefanoSaffran/gobarber?color=ff9000">
-</p> 
 
 <p align="center">
   <a href="#computer-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -147,7 +135,7 @@ docker start redisimageName
 Now clone the repository and install the dependencies.
 ```bash
 # to clone the repository
-$ git clone https://github.com/StefanoSaffran/gobarber.git
+$ git clone https://github.com/juniorklawa/gobarber.git
 
 # go into the backend folder
 $ cd gobarber/backend
@@ -200,18 +188,3 @@ $ yarn android
 
 This project is under the MIT license. See the [LICENSE](https://github.com/StefanoSaffran/gobarber/blob/master/LICENSE) for more information
 
-## :mailbox_with_mail: Get in touch!
-
-<a href="https://stefanosaffran.com" target="_blank" >
-  <img alt="Website - Stefano Saffran" src="https://img.shields.io/badge/Website--%23F8952D?style=social">
-</a>&nbsp;&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/stefanosaffran/" target="_blank" >
-  <img alt="Linkedin - Stefano Saffran" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
-</a>&nbsp;&nbsp;&nbsp;
-<a href="mailto:stefanoas@gmail.com" target="_blank" >
-  <img alt="Email - Stefano Saffran" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail">
-</a> 
-
----
-
-Made with :coffee: and ❤️ by Stefano Saffran.
