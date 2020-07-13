@@ -13,8 +13,8 @@ export default {
 
   defaults: {
     from: {
-      email: 'stefanosaffran@zohomail.eu',
-      name: 'Stefano da equipe GoBarber',
+      email: 'juniorklawa@zohomail.eu',
+      name: 'Everaldo da equipe GoBarber',
     },
   },
 } as IMailConfig;

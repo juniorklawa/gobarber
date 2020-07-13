@@ -3,7 +3,7 @@ import path from 'path';
 import mime from 'mime';
 import aws, { S3 } from 'aws-sdk';
 
-import uploadUpload from '@config/upload';
+import uploadUpload from 'config/upload';
 import IStorageProvider from '../models/IStorageProvider';
 
 class S3StorageProvider implements IStorageProvider {

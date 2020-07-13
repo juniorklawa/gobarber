@@ -1,4 +1,4 @@
-import AppError from '@shared/errors/AppError';
+import AppError from '../../../shared/errors/AppError';
 
 import FakeUsersRepository from '../repositories/fakes/FakeUsersRepository';
 import FakeUserTokenRepository from '../repositories/fakes/FakeUserTokensRepository';
@@ -39,9 +39,6 @@ describe('SendForgotPasswordEmail', () => {
       token,
     });
 
-    // const updatedUser = await fakeUsersRepository.findById(user.id);
-
-    // expect(updatedUser?.password).toBe('123123');
     expect(generateHash).toHaveBeenCalledWith('123123');
   });
 

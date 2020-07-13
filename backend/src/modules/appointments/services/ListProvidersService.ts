@@ -1,9 +1,9 @@
 import { injectable, inject } from 'tsyringe';
 
-import ICacheProvider from '@shared/container/providers/CacheProvider/models/ICacheProvider';
-import IUsersRepository from '@modules/users/repositories/IUsersRepository';
+import ICacheProvider from 'shared/container/providers/CacheProvider/models/ICacheProvider';
+import IUsersRepository from 'modules/users/repositories/IUsersRepository';
 
-import User from '@modules/users/infra/typeorm/entities/User';
+import User from 'modules/users/infra/typeorm/entities/User';
 import { classToClass } from 'class-transformer';
 
 interface IRequest {

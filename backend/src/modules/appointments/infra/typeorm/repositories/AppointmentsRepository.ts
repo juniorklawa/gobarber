@@ -1,9 +1,9 @@
 import { getRepository, Repository, Raw } from 'typeorm';
 
-import IAppointmentRepository from '@modules/appointments/repositories/IAppointmentsRepository';
-import ICreateAppointmentDTO from '@modules/appointments/dtos/ICreateAppointmentDTO';
-import IFindAllInMonthFromProviderDTO from '@modules/appointments/dtos/IFindAllInMonthFromProviderDTO';
-import IFindAllInDayFromProviderDTO from '@modules/appointments/dtos/IFindAllInDayFromProviderDTO';
+import IAppointmentRepository from 'modules/appointments/repositories/IAppointmentsRepository';
+import ICreateAppointmentDTO from 'modules/appointments/dtos/ICreateAppointmentDTO';
+import IFindAllInMonthFromProviderDTO from 'modules/appointments/dtos/IFindAllInMonthFromProviderDTO';
+import IFindAllInDayFromProviderDTO from 'modules/appointments/dtos/IFindAllInDayFromProviderDTO';
 
 import Appointment from '../entities/Appointment';
 
@@ -62,7 +62,7 @@ class AppointmentsRepository implements IAppointmentRepository {
             `to_char(${dateFieldName}, 'DD-MM-YYYY') = '${parsedDay}-${parsedMonth}-${year}'`,
         ),
       },
-      relations: ['user'], // -> utiliza eager Loading (Realizando apenas 1 query no banco)
+      relations: ['user'],
     });
 
     return appointments;

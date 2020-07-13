@@ -1,5 +1,5 @@
-import FakeAppointmentsRepository from '@modules/appointments/repositories/fakes/FakeAppointmentsRepository';
-import FakeCacheProvider from '@shared/container/providers/CacheProvider/fakes/FakeCacheProvider';
+import FakeAppointmentsRepository from '../../../modules/appointments/repositories/fakes/FakeAppointmentsRepository';
+import FakeCacheProvider from '../../../shared/container/providers/CacheProvider/fakes/FakeCacheProvider';
 
 import ListProviderAppointmentsService from './ListProviderAppointmentsService';
 
@@ -39,6 +39,4 @@ describe('ListProviderDayAppointments', () => {
 
     expect(appointments).toEqual([appointment1, appointment2]);
   });
-
-  // it('should not be able to list all providers')
 });

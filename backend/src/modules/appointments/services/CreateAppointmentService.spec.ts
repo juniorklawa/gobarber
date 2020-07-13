@@ -1,9 +1,9 @@
-import AppError from '@shared/errors/AppError';
+import AppError from '../../../shared/errors/AppError';
 
-import FakeNotificationsRepository from '@modules/notifications/repositories/fakes/FakeNotificationsRepository';
-import FakeCacheProvider from '@shared/container/providers/CacheProvider/fakes/FakeCacheProvider';
-import FakeHashProvider from '@modules/users/providers/HashProvider/fakes/FakeHashProvider';
-import FakeUsersRepository from '@modules/users/repositories/fakes/FakeUsersRepository';
+import FakeNotificationsRepository from '../../../modules/notifications/repositories/fakes/FakeNotificationsRepository';
+import FakeCacheProvider from '../../../shared/container/providers/CacheProvider/fakes/FakeCacheProvider';
+import FakeHashProvider from '../../../modules/users/providers/HashProvider/fakes/FakeHashProvider';
+import FakeUsersRepository from '../../../modules/users/repositories/fakes/FakeUsersRepository';
 import FakeAppointmentsRepository from '../repositories/fakes/FakeAppointmentsRepository';
 import CreateAppointmentService from './CreateAppointmentService';
 import CreateUsersService from '../../users/services/CreateUserService';

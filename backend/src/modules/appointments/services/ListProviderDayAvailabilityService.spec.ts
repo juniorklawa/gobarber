@@ -1,4 +1,4 @@
-import FakeAppointmentsRepository from '@modules/appointments/repositories/fakes/FakeAppointmentsRepository';
+import FakeAppointmentsRepository from '../../../modules/appointments/repositories/fakes/FakeAppointmentsRepository';
 import ListProviderDayAvailability from './ListProviderDayAvailabilityService';
 
 let fakeAppointmentsRepository: FakeAppointmentsRepository;
@@ -48,6 +48,4 @@ describe('ListProviderDayAvailability', () => {
       ]),
     );
   });
-
-  // it('should not be able to list all providers')
 });
